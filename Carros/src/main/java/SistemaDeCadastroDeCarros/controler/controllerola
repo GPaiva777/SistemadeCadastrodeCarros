@@ -1,5 +1,5 @@
 package com.exemplo.carro.controller;
-
+// faz a importação das bibliotecas necessárias para a criação do controller
 import com.exemplo.carro.model.Carro;
 import com.exemplo.carro.service.CarroService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,10 +7,11 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
-
+// Indica que essa classe é um controlador REST, ou seja, irá tratar requisições HTTP
 @RestController
 @RequestMapping("/carros")
 public class CarroController {
+    //injeção de dependência do serviço de carro
     @Autowired
     private CarroService service;
 

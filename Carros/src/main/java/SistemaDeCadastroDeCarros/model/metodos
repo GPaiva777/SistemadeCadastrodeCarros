@@ -1,11 +1,13 @@
 package com.exemplo.carro.model;
-
+// Indica que essa classe é uma entidade JPA, ou seja, será mapeada para uma tabela no banco de dados.
 @Entity
 public class Carro {
+    // indica que o campo id é a chave primária da entidade
     @Id
+    //indica que o id é auto incrementado pelo banco de dados 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    // atrinui a cada linha da tabela do banco de dados 
     private Long id;
-
     private String marca;
     private String modelo;
     private int ano;

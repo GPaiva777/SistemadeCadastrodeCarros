@@ -1,5 +1,5 @@
 package com.exemplo.carro.service;
-
+// faz a importação das bibliotecas necessárias para a criação do serviço de carro
 import com.exemplo.carro.model.Carro;
 import com.exemplo.carro.repository.CarroRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,9 +7,10 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-
+// Indica que essa classe é um serviço do Spring, ou seja, contém a lógica de negócio 
 @Service
 public class CarroService {
+    //injeção de dependência do repositório de carro
     @Autowired
     private CarroRepository repository;
 
