@@ -1,7 +1,5 @@
 package com.exemplo.carro.model;
 
-import javax.persistence.*;
-
 @Entity
 public class Carro {
     @Id
