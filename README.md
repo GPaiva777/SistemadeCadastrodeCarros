@@ -9,7 +9,7 @@ O projeto tem como objetivo cirar um sistema em Java para gerenciar carros de um
 
 Ao abrir o sistema o usuário escolhe se quer cadastrar um carro, listar carros já cadastrados ou  excluir da lista um carro que foi vendido.
 
-O projeto ainda é simples e imcompleto, mas tem potencial de escalonar e se tornar algo funcional. Ele tem uma boa base para um sistema maior, aplicando conceitos práticos de programação como entrada de dados, organização por tipo e interação com o usuário.
+O projeto ainda é simples e incompleto, mas tem potencial de escalonar e se tornar algo funcional. Ele tem uma boa base para um sistema maior, aplicando conceitos práticos de programação como entrada de dados, organização por tipo e interação com o usuário.
 
 
 ## Possíveis melhorias:  
